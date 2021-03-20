@@ -20,10 +20,15 @@ dotnet sln add API
 
 ### Extensions:
 
-> C# Microsoft: Main
-> C# extension (2nd): Tạo class, trick
-> Nuget Gallery
-> SqlLite
+```
+C# Microsoft: Main
+C# extension (2nd): Tạo class, trick
+Nuget Gallery
+SqlLite
+Angular Language Service
+Angular Snippets
+Bracket Pair Colorizer 2
+```
 
 ---
 
@@ -31,20 +36,28 @@ dotnet sln add API
 
 ### Tao file debug
 
-> Generate Assets for Build and Debug
+```
+Generate Assets for Build and Debug
+```
 
 ### Hide obj, bin:
 
-> File exclude -> Add **/obj, **/bin
+```
+File exclude -> Add **/obj, **/bin
+```
 
 ### Tat compact folder:
 
-> Compact folder -> turn off
+```
+Compact folder -> turn off
+```
 
 ### Cai dat khac
 
-> Private member prefix: \_
-> Use this for ctor assignment: false
+```
+Private member prefix: _
+Use this for ctor assignment: false
+```
 
 ---
 
@@ -76,4 +89,32 @@ dotnet ef migrations add InitialCreate -o Data/Migrations
 ```
 dotnet ef update
 dotnet ef database update
+```
+
+--
+
+## Create angular
+
+```
+npm install -g @angular/cli
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+ng new client
+```
+
+## Start Angular
+
+```
+ng serve
+```
+
+## Install bootstrap ngx-bootstrap
+
+```
+ng add @ng-bootstrap/ng-bootstrap
+```
+
+## Install font-awesome
+
+```
+npm install font-awesome
 ```
