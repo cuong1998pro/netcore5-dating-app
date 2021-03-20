@@ -1,66 +1,56 @@
-# Tao solution
+## Tạo solution
 
-## Create solution file
+### Create solution file
 
 ```
 dotnet new sln
 ```
 
-## Create Api project (-o output directory)
+### Create Api project (-o output directory)
 
 ```
 dotnet new webapi -o API
 ```
 
-## Add Api to solution
+### Add Api to solution
 
 ```
 dotnet sln add API
 ```
 
-## Extensions:
+### Extensions:
 
-```
-C# Microsoft: Main
-C# extension (2nd): Tạo class, trick
-Nuget Gallery
-SqlLite
-```
+> C# Microsoft: Main
+> C# extension (2nd): Tạo class, trick
+> Nuget Gallery
+> SqlLite
 
 ---
 
-# Ctrl + Shift + P
+## Ctrl + Shift + P
 
-## Tao file debug
+### Tao file debug
 
-```
-Generate Assets for Build and Debug
-```
+> Generate Assets for Build and Debug
 
-## Hide obj, bin:
+### Hide obj, bin:
 
-```
-File exclude -> Add **/obj, **/bin
-```
+> File exclude -> Add **/obj, **/bin
 
-## Tat compact folder:
+### Tat compact folder:
 
-```
-Compact folder -> turn off
-```
+> Compact folder -> turn off
 
-## Cai dat khac
+### Cai dat khac
 
-```
-Private member prefix: _
-Use this for ctor assignment: false
-```
+> Private member prefix: \_
+> Use this for ctor assignment: false
 
 ---
 
-# Lenh khi code
+## Lenh khi code
 
-## Build and run:
+### Build and run:
 
 ```
 dotnet run
@@ -68,20 +58,20 @@ dotnet dev-certs https --trust
 dotnet watch run
 ```
 
-## Cai dotnet ef:
+### Cai dotnet ef:
 
 ```
 Len nuget tim lenh cai dotnet-ef
 dotnet tool install --global dotnet-ef --version 6.0.0-preview.2.21154.2
 ```
 
-## Create migration:
+### Create migration:
 
 ```
 dotnet ef migrations add InitialCreate -o Data/Migrations
 ```
 
-## Create database:
+### Create database:
 
 ```
 dotnet ef update
