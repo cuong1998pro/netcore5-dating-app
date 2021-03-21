@@ -30,6 +30,13 @@ Angular Snippets
 Bracket Pair Colorizer 2
 ```
 
+### Nuget package
+```
+Entity Framework Core
+System.IdentityModel.Tokens.Jwt
+Microsoft.AspNetCore.Authentication.JwtBearer
+```
+
 ---
 
 ## Ctrl + Shift + P
@@ -89,6 +96,12 @@ dotnet ef migrations add InitialCreate -o Data/Migrations
 ```
 dotnet ef update
 dotnet ef database update
+```
+
+### Drop databse
+
+```
+dotnet ef database drop
 ```
 
 --
