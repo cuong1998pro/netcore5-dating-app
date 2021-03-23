@@ -131,3 +131,8 @@ ng add @ng-bootstrap/ng-bootstrap
 ```
 npm install font-awesome
 ```
+## Add component 
+```
+cd src/app
+ng g c nav --skip-tests
+```
