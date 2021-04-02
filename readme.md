@@ -106,7 +106,7 @@ dotnet ef database drop
 
 --
 
-## Create angular
+### Create angular
 
 ```
 npm install -g @angular/cli
@@ -114,25 +114,29 @@ Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 ng new client
 ```
 
-## Start Angular
+### Start Angular
 
 ```
 ng serve
 ```
 
-## Install bootstrap ngx-bootstrap
+### Install bootstrap ngx-bootstrap
 
 ```
 ng add @ng-bootstrap/ng-bootstrap
 ```
 
-## Install font-awesome
+### Install font-awesome
 
 ```
 npm install font-awesome
 ```
-## Add component 
+### Add component 
 ```
 cd src/app
 ng g c nav --skip-tests
 ```
+### Add service 
+```
+ng g s account --skip-tests
+````
